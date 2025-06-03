@@ -1,5 +1,7 @@
 # 🎵 Apple Music MCP Server
 
+**THIS IS A WIP/TESTING GROUND FOR THE GITHUB CODING AGENT -- NOT CURRENTLY FUNCTIONAL**
+
 A [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/docs) server that enables Large Language Models to seamlessly interact with your Apple Music library. Built with Go and designed for the modern AI-powered music discovery experience.
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-blue.svg)](https://golang.org)
@@ -99,14 +101,14 @@ apple_music:
   team_id: "YOUR_TEAM_ID"
   key_id: "YOUR_KEY_ID"
   private_key_path: "/path/to/your/AuthKey_KEYID.p8"
-  
+
 server:
   port: 8080
   log_level: "info"
-  
+
 storage:
   database_path: "~/.local/share/apple-music-mcp/data.db"
-  
+
 cache:
   ttl: "1h"
   max_size: 1000
